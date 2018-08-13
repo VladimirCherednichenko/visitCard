@@ -1,0 +1,68 @@
+.title {
+    font-family: Arial, serif;
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+    margin-top:1vh;
+}
+.container {
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+    height: auto;
+    margin: 6px;
+}
+.task {
+    width: 100%;
+    background: #808080;
+    color:white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: auto;
+}
+.task:nth-child(2n){
+    background: transparent;
+    color:black;
+}
+.delButton {
+    width: 2vw;
+    height: 2vw;
+    border: solid transparent;
+    background: transparent;
+    color: #cd3c21;
+    font-weight: bold;
+    font-size: 1vw;
+    margin: 0.5vw;
+}
+.delButton:hover {
+    cursor: pointer;
+}
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:1vh;
+}
+.inputTask {
+    background-color: #fff;
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    width: 15vw;
+
+}
+.addButton {
+    background-color: #fff;
+    font-family: Arial,serif;
+}
+.taskText {
+    margin: 10px;
+}
+.taskHolder {
+    max-height: 40vh;
+    overflow-y: auto;
+}

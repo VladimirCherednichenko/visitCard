@@ -1,0 +1,38 @@
+.isEnabled {
+    background-color: chartreuse;
+}
+.statusBar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.startBtn {
+    height: 2vh;
+    cursor: pointer;
+    background-color: rgb(179, 252, 22);
+
+}
+.stopBtn {
+    height: 2vh;
+    cursor: pointer;
+    background-color: #fc4747;
+}
+.resetBtn {
+    height: 2vh;
+    cursor: pointer;
+    background: #5755fc;
+    color:white;
+}
+.btnPanel {
+    display: flex;
+    flex-direction: row;
+}
+.inputTimer {
+    text-align: right;
+
+}
+.titleTimer{
+    font-family: Arial, serif;
+    color: black;
+    text-align: left;
+    margin-top:1vh;
+}
